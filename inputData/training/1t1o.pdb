@@ -1,0 +1,291 @@
+HEADER    RIBOSOME                                16-APR-04   1T1O              
+TITLE     COMPONENTS OF THE CONTROL 70S RIBOSOME TO PROVIDE REFERENCE           
+TITLE    2 FOR THE RRF BINDING SITE                                             
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: DODECAMER FRAGMENT OF DOUBLE HELIX FROM 23S RRNA;          
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 FRAGMENT: APICAL LOOP OF HELIX 43;                                   
+COMPND   5 OTHER_DETAILS: FITTED INTO THE CRYO-EM MAP OF THE 70S                
+COMPND   6 RIBOSOME;                                                            
+COMPND   7 MOL_ID: 2;                                                           
+COMPND   8 MOLECULE: 19-MER FRAGMENT OF THE 23S RRNA;                           
+COMPND   9 CHAIN: B;                                                            
+COMPND  10 FRAGMENT: HELIX 69;                                                  
+COMPND  11 OTHER_DETAILS: FITTED INTO THE CRYO-EM MAP OF THE 70S                
+COMPND  12 RIBOSOME;                                                            
+COMPND  13 MOL_ID: 3;                                                           
+COMPND  14 MOLECULE: 42-MER FRAGMENT OF DOUBLE HELIX FROM 16S RRNA;             
+COMPND  15 CHAIN: C;                                                            
+COMPND  16 FRAGMENT: TOP PORTION OF HELIX 44;                                   
+COMPND  17 SYNONYM: RIBOSOME RELEASING FACTOR; RRF;                             
+COMPND  18 OTHER_DETAILS: FITTED INTO THE CRYO-EM MAP OF THE 70S                
+COMPND  19 RIBOSOME                                                             
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
+SOURCE   3 ORGANISM_TAXID: 562;                                                 
+SOURCE   4 STRAIN: MRE600;                                                      
+SOURCE   5 MOL_ID: 2;                                                           
+SOURCE   6 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
+SOURCE   7 ORGANISM_TAXID: 562;                                                 
+SOURCE   8 STRAIN: MRE600;                                                      
+SOURCE   9 MOL_ID: 3;                                                           
+SOURCE  10 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
+SOURCE  11 ORGANISM_TAXID: 562;                                                 
+SOURCE  12 STRAIN: MRE600                                                       
+KEYWDS    RRF BINDING POSITION ON THE RIBOSOME                                  
+EXPDTA    ELECTRON MICROSCOPY                                                   
+MDLTYP    P ATOMS ONLY, CHAIN A, B, C                                           
+AUTHOR    R.K.AGRAWAL,M.R.SHARMA,M.C.KIEL,G.HIROKAWA,T.M.BOOTH,                 
+AUTHOR   2 C.M.SPAHN,R.A.GRASSUCCI,A.KAJI,J.FRANK                               
+REVDAT   2   24-FEB-09 1T1O    1       VERSN                                    
+REVDAT   1   15-JUN-04 1T1O    0                                                
+JRNL        AUTH   R.K.AGRAWAL,M.R.SHARMA,M.C.KIEL,G.HIROKAWA,                  
+JRNL        AUTH 2 T.M.BOOTH,C.M.SPAHN,R.A.GRASSUCCI,A.KAJI,J.FRANK             
+JRNL        TITL   VISUALIZATION OF RIBOSOME-RECYCLING FACTOR ON THE            
+JRNL        TITL 2 ESCHERICHIA COLI 70S RIBOSOME: FUNCTIONAL                    
+JRNL        TITL 3 IMPLICATIONS                                                 
+JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 101  8900 2004              
+JRNL        REFN                   ISSN 0027-8424                               
+JRNL        PMID   15178758                                                     
+JRNL        DOI    10.1073/PNAS.0401904101                                      
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   J.HARMS,F.SCHLUENZEN,R.ZARIVACH,A.BASHAN,S.GAT,              
+REMARK   1  AUTH 2 I.AGMON,H.BARTELS,F.FRANCESCHI,A.YONATH                      
+REMARK   1  TITL   HIGH RESOLUTION STRUCTURE OF THE LARGE RIBOSOMAL             
+REMARK   1  TITL 2 SUBUNIT FROM A MESOPHILIC EUBACTERIUM                        
+REMARK   1  REF    CELL(CAMBRIDGE,MASS.)         V. 107   679 2001              
+REMARK   1  REFN                   ISSN 0092-8674                               
+REMARK   1  PMID   11733066                                                     
+REMARK   1  DOI    10.1016/S0092-8674(01)00546-3                                
+REMARK   1 REFERENCE 2                                                          
+REMARK   1  AUTH   B.T.WIMBERLY,D.E.BRODERSEN,W.M.CLEMONS JR.,                  
+REMARK   1  AUTH 2 R.J.MORGAN-WARREN,A.P.CARTER,C.VONRHEIN,T.HARTSCH,           
+REMARK   1  AUTH 3 V.RAMAKRISHNAN                                               
+REMARK   1  TITL   STRUCTURE OF THE 30S RIBOSOMAL SUBUNIT                       
+REMARK   1  REF    NATURE                        V. 407   327 2000              
+REMARK   1  REFN                   ISSN 0028-0836                               
+REMARK   1  PMID   11014182                                                     
+REMARK   1  DOI    10.1038/35030006                                             
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.   12.00 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   SOFTWARE PACKAGES      : NULL                                      
+REMARK   3   RECONSTRUCTION SCHEMA  : 3D PROJECTION MATCHING; CONJUGATE         
+REMARK   3                            GRADIENTS WITH REGULARIZATION             
+REMARK   3                                                                      
+REMARK   3 EM MAP-MODEL FITTING AND REFINEMENT                                  
+REMARK   3   PDB ENTRY                    : 1KC9, 1JFJ                          
+REMARK   3   REFINEMENT SPACE             : NULL                                
+REMARK   3   REFINEMENT PROTOCOL          : NULL                                
+REMARK   3   REFINEMENT TARGET            : NULL                                
+REMARK   3   OVERALL ANISOTROPIC B VALUE  : NULL                                
+REMARK   3                                                                      
+REMARK   3 FITTING PROCEDURE : CROSS CORELATION COEFFICIENT BASED MANUAL        
+REMARK   3  FITTING IN O                                                        
+REMARK   3                                                                      
+REMARK   3 EM IMAGE RECONSTRUCTION STATISTICS                                   
+REMARK   3   NOMINAL PIXEL SIZE (ANGSTROMS)    : NULL                           
+REMARK   3   ACTUAL PIXEL SIZE  (ANGSTROMS)    : 2.820                          
+REMARK   3   EFFECTIVE RESOLUTION (ANGSTROMS)  : 12.000                         
+REMARK   3   NUMBER OF PARTICLES               : NULL                           
+REMARK   3   CTF CORRECTION METHOD             : CTF CORRECTION OF 3D-MAPS      
+REMARK   3                                       BY WIENER FILTRATION           
+REMARK   3                                                                      
+REMARK   3 EM RECONSTRUCTION MAGNIFICATION CALIBRATION: TMV                     
+REMARK   3                                                                      
+REMARK   3 OTHER DETAILS: SPIDER PACKAGE                                        
+REMARK   4                                                                      
+REMARK   4 1T1O COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 28-APR-04.                  
+REMARK 100 THE RCSB ID CODE IS RCSB022199.                                      
+REMARK 245                                                                      
+REMARK 245 EXPERIMENTAL DETAILS                                                 
+REMARK 245   RECONSTRUCTION METHOD          : SINGLE PARTICLE                   
+REMARK 245   SPECIMEN TYPE                  : VITREOUS ICE (CRYO EM)            
+REMARK 245                                                                      
+REMARK 245 ELECTRON MICROSCOPE SAMPLE                                           
+REMARK 245   SAMPLE TYPE                    : PARTICLE                          
+REMARK 245   PARTICLE TYPE                  : ASYMMETRIC                        
+REMARK 245   NAME OF SAMPLE                 : 70S-RRF COMPLEX                   
+REMARK 245   SAMPLE CONCENTRATION (MG ML-1) : 32.00                             
+REMARK 245   SAMPLE SUPPORT DETAILS         : QUANTIFOIL HOLLEY-CARBON          
+REMARK 245                                    FILM GRIDS                        
+REMARK 245   SAMPLE VITRIFICATION DETAILS   : RAPID-FREEZING IN LIQUID          
+REMARK 245                                    ETHANE                            
+REMARK 245   SAMPLE BUFFER                  : NULL                              
+REMARK 245   PH                             : 7.50                              
+REMARK 245   SAMPLE DETAILS                 : NULL                              
+REMARK 245                                                                      
+REMARK 245 DATA ACQUISITION                                                     
+REMARK 245   DATE OF EXPERIMENT                : 01-JUN-02                      
+REMARK 245   NUMBER OF MICROGRAPHS-IMAGES      : NULL                           
+REMARK 245   TEMPERATURE (KELVIN)              : 93.00                          
+REMARK 245   MICROSCOPE MODEL                  : FEI TECNAI F20                 
+REMARK 245   DETECTOR TYPE                     : KODAK SO163 FILM               
+REMARK 245   MINIMUM DEFOCUS (NM)              : 1400.00                        
+REMARK 245   MAXIMUM DEFOCUS (NM)              : 4400.00                        
+REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : 0.00                           
+REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : 0.00                           
+REMARK 245   NOMINAL CS                        : 2.00                           
+REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 2000.00                        
+REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
+REMARK 245   NOMINAL MAGNIFICATION             : 50000                          
+REMARK 245   CALIBRATED MAGNIFICATION          : 49696                          
+REMARK 245   SOURCE                            : FIELD EMISSION GUN             
+REMARK 245   ACCELERATION VOLTAGE (KV)         : 200                            
+REMARK 245   IMAGING DETAILS                   : NULL                           
+REMARK 247                                                                      
+REMARK 247 ELECTRON MICROSCOPY                                                  
+REMARK 247  THE COORDINATES IN THIS ENTRY WERE GENERATED FROM ELECTRON          
+REMARK 247  MICROSCOPY DATA. PROTEIN DATA BANK CONVENTIONS REQUIRE              
+REMARK 247  THAT CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES           
+REMARK 247  ON THESE RECORDS ARE MEANINGLESS EXCEPT FOR THE CALCULATION         
+REMARK 247  OF THE STRUCTURE FACTORS.                                           
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1                              
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIMERIC                          
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C                               
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 1KC9   RELATED DB: PDB                                   
+REMARK 900 X-RAY CRYSTALLOGRAPHIC STRUCTURE OF THE 50S RIBOSOMAL                
+REMARK 900 SUBUNIT FROM D. RADIODURANS                                          
+REMARK 900 RELATED ID: 1FJF   RELATED DB: PDB                                   
+REMARK 900 X-RAY CRYSTALLOGRAPHIC STRUCTURE OF THE 30S RIBOSOMAL                
+REMARK 900 SUBUNIT FROM T. THERMOPHILU                                          
+REMARK 900 RELATED ID: 1T1M   RELATED DB: PDB                                   
+REMARK 900 RELATED ID: EMD-1077   RELATED DB: EMDB                              
+DBREF  1T1O A 1061  1072  PDB    1T1O     1T1O          1061   1072             
+DBREF  1T1O B 1906  1924  PDB    1T1O     1T1O          1906   1924             
+DBREF  1T1O C 1401  1501  PDB    1T1O     1T1O          1401   1501             
+SEQRES   1 A   12    U   G   G   C   U   U   A   G   A   A   G   C              
+SEQRES   1 B   19    G   G   C   C   G   U   A   A   C   U   A   U   A          
+SEQRES   2 B   19    A   C   G   G   U   C                                      
+SEQRES   1 C   42    G   C   C   C   G   U   C   A   C   A   C   C   A          
+SEQRES   2 C   42    U   G   G   G   A   G   U   A   U   G   A   C   U          
+SEQRES   3 C   42    G   G   G   G   U   G   A   A   G   U   C   G   U          
+SEQRES   4 C   42    A   A   C                                                  
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+ATOM      1  P     U A1061     -50.967   4.476 -88.756  1.00 88.72           P  
+ATOM      2  P     G A1062     -50.803   8.850 -87.398  1.00 92.48           P  
+ATOM      3  P     G A1063     -48.764  10.454 -81.417  1.00 90.30           P  
+ATOM      4  P     C A1064     -46.814   8.130 -76.400  1.00 60.38           P  
+ATOM      5  P     U A1065     -44.768  10.730 -72.531  1.00100.31           P  
+ATOM      6  P     U A1066     -42.193  15.381 -70.125  1.00132.67           P  
+ATOM      7  P     A A1067     -39.915  20.643 -71.603  1.00134.62           P  
+ATOM      8  P     G A1068     -40.942  19.987 -77.367  1.00138.55           P  
+ATOM      9  P     A A1069     -40.506  16.590 -81.730  1.00132.45           P  
+ATOM     10  P     A A1070     -38.713  10.950 -83.507  1.00162.07           P  
+ATOM     11  P     G A1071     -36.893   9.953 -90.206  1.00112.73           P  
+ATOM     12  P     C A1072     -32.645   9.139 -86.060  1.00149.00           P  
+TER      13        C A1072                                                      
+ATOM     14  P     G B1906     -22.148  -0.316   5.233  1.00 67.41           P  
+ATOM     15  P     G B1907     -22.343  -3.897  -0.839  1.00 72.07           P  
+ATOM     16  P     C B1908     -24.417  -5.293  -4.807  1.00 89.20           P  
+ATOM     17  P     C B1909     -29.004  -5.381  -8.824  1.00103.74           P  
+ATOM     18  P     G B1910     -34.694  -3.868  -9.953  1.00105.00           P  
+ATOM     19  P     U B1911     -38.362  -0.822 -11.879  1.00161.61           P  
+ATOM     20  P     A B1912     -37.723   4.926 -11.499  1.00 97.28           P  
+ATOM     21  P     A B1913     -38.794  10.317 -14.640  1.00117.57           P  
+ATOM     22  P     C B1914     -36.866  14.500 -10.805  1.00162.00           P  
+ATOM     23  P     U B1915     -34.150  11.475 -14.990  1.00 27.21           P  
+ATOM     24  P     A B1916     -29.304   8.162 -14.731  1.00 95.30           P  
+ATOM     25  P     U B1917     -28.103   6.064  -9.146  1.00 84.23           P  
+ATOM     26  P     A B1918     -29.985   4.223  -3.096  1.00162.07           P  
+ATOM     27  P     A B1919     -35.113   5.058   0.796  1.00 84.83           P  
+ATOM     28  P     C B1920     -38.688   6.012   4.499  1.00113.68           P  
+ATOM     29  P     G B1921     -40.025  -0.476   6.468  1.00107.14           P  
+ATOM     30  P     G B1922     -39.847  -6.201   6.409  1.00100.36           P  
+ATOM     31  P     U B1923     -39.899 -12.137   7.084  1.00135.00           P  
+ATOM     32  P     C B1924     -34.477 -14.677   5.302  1.00129.47           P  
+TER      33        C B1924                                                      
+ATOM     34  P     G C1401     -58.833  16.167   3.186  1.00 51.68           P  
+ATOM     35  P     C C1402     -56.316  20.287   5.445  1.00 43.91           P  
+ATOM     36  P     C C1403     -50.864  21.848   7.254  1.00 63.28           P  
+ATOM     37  P     C C1404     -44.960  20.357   6.848  1.00 53.55           P  
+ATOM     38  P     G C1405     -39.685  19.225   5.114  1.00 59.94           P  
+ATOM     39  P     U C1406     -35.747  18.043   0.614  1.00 73.43           P  
+ATOM     40  P     C C1407     -32.819  16.884  -4.002  1.00 76.27           P  
+ATOM     41  P     A C1408     -33.387  18.644  -9.954  1.00 81.58           P  
+ATOM     42  P     C C1409     -35.356  22.862 -13.317  1.00 86.68           P  
+ATOM     43  P     A C1410     -36.463  28.221 -14.058  1.00 95.83           P  
+ATOM     44  P     C C1411     -35.649  33.439 -12.106  1.00163.78           P  
+ATOM     45  P     C C1412     -33.015  37.408  -8.297  1.00170.59           P  
+ATOM     46  P     A C1413     -29.407  39.325  -4.185  1.00107.44           P  
+ATOM     47  P     U C1414     -24.617  38.585  -0.316  1.00 85.87           P  
+ATOM     48  P     G C1415     -20.262  34.924   2.122  1.00 84.46           P  
+ATOM     49  P     G C1416     -16.170  31.637   2.899  1.00 85.98           P  
+ATOM     50  P     G C1417     -11.590  29.073   1.100  1.00124.72           P  
+ATOM     51  P     A C1418      -8.282  29.578  -4.086  1.00150.89           P  
+ATOM     52  P     G C1419      -3.657  29.502  -7.228  1.00182.21           P  
+ATOM     53  P     U C1420      -1.684  34.313 -10.649  1.00149.75           P  
+ATOM     54  P     A C1480     -14.928  43.207  -0.977  1.00134.12           P  
+ATOM     55  P     U C1481     -16.692  42.626  -6.504  1.00133.09           P  
+ATOM     56  P     G C1482     -17.539  39.084 -11.064  1.00126.17           P  
+ATOM     57  P     A C1483     -17.497  33.080 -12.431  1.00131.52           P  
+ATOM     58  P     C C1484     -18.247  27.992 -14.750  1.00124.28           P  
+ATOM     59  P     U C1485     -19.195  23.011 -11.445  1.00116.70           P  
+ATOM     60  P     G C1486     -21.920  21.033  -6.193  1.00108.72           P  
+ATOM     61  P     G C1487     -25.827  20.297  -2.231  1.00119.99           P  
+ATOM     62  P     G C1488     -30.602  22.542   1.944  1.00 73.32           P  
+ATOM     63  P     G C1489     -34.380  26.081   4.120  1.00 89.26           P  
+ATOM     64  P     U C1490     -39.079  29.637   4.421  1.00139.41           P  
+ATOM     65  P     G C1491     -43.409  31.805   1.491  1.00184.39           P  
+ATOM     66  P     A C1492     -47.355  31.636  -2.413  1.00160.38           P  
+ATOM     67  P     A C1493     -49.581  25.708  -5.275  1.00200.93           P  
+ATOM     68  P     G C1494     -50.203  21.115  -7.723  1.00118.15           P  
+ATOM     69  P     U C1495     -48.714  16.146 -10.216  1.00 79.93           P  
+ATOM     70  P     C C1496     -46.807  11.263  -9.715  1.00 76.77           P  
+ATOM     71  P     G C1497     -46.413   6.875  -6.579  1.00 65.71           P  
+ATOM     72  P     U C1498     -46.959   4.896  -0.196  1.00 53.61           P  
+ATOM     73  P     A C1499     -45.628   6.302   6.205  1.00 39.64           P  
+ATOM     74  P     A C1500     -44.985   7.431  10.843  1.00 36.81           P  
+ATOM     75  P     C C1501     -46.849   9.887  15.309  1.00 28.55           P  
+TER      76        C C1501                                                      
+MASTER      146    0    0    0    0    0    0    6   73    3    0    7          
+END                                                                             
