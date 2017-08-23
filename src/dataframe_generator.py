@@ -28,17 +28,12 @@ class Generator:
         aa = ('GLU', 'ALA', 'LEU', 'HIS', 'MET', 'GLN', 'TRP', 'VAL', 'PHE', 'LYS',
               'ILE', 'ASP', 'THR', 'SER', 'ARG', 'CYS', 'ASN', 'TYR', 'PRO', 'GLY')
 
-        self.res_lst = Selection.unfold_entities(structure, 'R')
+        res_lst = Selection.unfold_entities(structure, 'R')
         # get the list of all residues
-        while True:
-            n = len(self.res_lst)
-            # only amino acids are preserved
-            for residue in self.res_lst:
-                name = residue.get_resname().strip().upper()
-                if name not in aa:
-                    self.res_lst.remove(residue)
-            if n == len(self.res_lst):
-                break
+        for residue in res_lst:
+            name = residue.get_resname().strip().upper()
+            if name in aa:
+                self.res_lst.append(residue)
 
     def extra_second_stru(self, file):
         """read pdb file and return a dataframe of secondary structure elements with ids of residues as index.
@@ -209,7 +204,7 @@ class Generator:
 
     def read_files(self):
         """read file path and write an csv file for prediction model"""
-        print('Begin generate data frame...')
+        print('Begin generating data frame...')
         parser = PDBParser(PERMISSIVE=1)
         files = os.listdir(self.path)
 
@@ -263,7 +258,7 @@ class Generator:
             self.train_df = pd.concat([self.train_df, feature_df])
             # write an csv file
             self.train_df.to_csv(self.df_name + '.csv')
-        print('Generator end. \n File name: {}\n'.format((self.df_name + '.csv')))
+        print('Generator ends. \n File name: {}\n'.format((self.df_name + '.csv')))
 
 
 if __name__ == '__main__':

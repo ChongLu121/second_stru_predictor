@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import argparse
 
+
 def change_label(label):
     """change the label of each class to do the next step, score Q3, Q8 and SOV"""
     res = None
@@ -50,7 +51,8 @@ def main(train, test):
     comp_df = comp_df.applymap(change_label)
     # write a compare table for test data. (test protein can be change)
     comp_df.to_csv('compare_table.csv')
-    print('\nProcesses end.')
+    print('\nProcess ends.')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="run secondary prediction")

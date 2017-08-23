@@ -16,7 +16,7 @@ class SecPredictor(BaseEstimator, ClassifierMixin):
 
     def fit(self, inputs, targets):
         # do z-transformation, store the mean and std
-        print('Begin fit model...')
+        print('Begin fitting the model...')
         self.z_mean = inputs.mean(axis=0)
         self.z_std = inputs.std(axis=0)
         inputs_z = (inputs - self.z_mean) / self.z_std
@@ -28,20 +28,12 @@ class SecPredictor(BaseEstimator, ClassifierMixin):
         # fit SVC on PCA-data, store the SVC
         self.classifier = svm.SVC(kernel=self.svm_k)
         self.classifier.fit(pca_df, targets)
-        print('fit model end.\n')
+        print('Fitting ends.\n')
 
     def predict(self, inputs):
-        print('Begin predict structure...')
+        print('Begin predicting structures...')
         inputs_z = (inputs - self.z_mean) / self.z_std
         # use the PCA object to transform the input
         pca_df = self.pca.transform(inputs_z)
-        print('predict end.\n')
+        print('Prediction ends.\n')
         return self.classifier.predict(pca_df)
-
-
-
-
-
-
-
-
